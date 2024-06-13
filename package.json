@@ -1,6 +1,6 @@
 {
-    "name": "ngx-datetime",
-    "version": "1.0.1",
+    "name": "@lolini-ingegnerietoscane/ngx-datetime",
+    "version": "1.0.2",
     "description": "ngx-datetime based on ng2-datetime",
     "main": "./bundles/ngx-datetime.umd.js",
     "module": "./esm5/ngx-datetime.js",
@@ -18,8 +18,11 @@
     "author": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dmaciaszek/ng2-datetime"
+        "url": "https://github.com/Lolini-IngegnerieToscane/ng2-datetime"
     },
+    "publishConfig": {
+	    "registry": "https://npm.pkg.github.com"
+	},
     "bugs": {
         "url": ""
     },
